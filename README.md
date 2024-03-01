@@ -13,5 +13,7 @@
   nix run .#<VM-NAME>
 ```
 
-* `root` user password: root
-* `test` user password: test
+### Passwords
+
+* `root` : root
+* `test` : test

@@ -1,11 +1,17 @@
-# Build simple test NixOS VM
+# Test NixOS VMs
 
-* Build VM
-```
- ./build-vm.bash
-```
+## VM list
+
+* vm - bare bones VM
+* xfce-gui - XFCE desktop
+
+
+## Usage
 
 * Launch VM
 ```
- ./result/bin/run-nixos-vm
+  nix run .#<VM-NAME>
 ```
+
+* `root` user password: root
+* `test` user password: test

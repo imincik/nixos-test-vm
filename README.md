@@ -2,8 +2,9 @@
 
 ## VM list
 
-* vm - bare bones VM
-* xfce - XFCE desktop
+* vm     - bare bones VM
+* k3s    - lightweight Kubernetes (k3s)
+* xfce   - XFCE desktop
 
 
 ## Usage

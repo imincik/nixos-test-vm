@@ -32,18 +32,18 @@ in {
     };
 
     vm = ./vm;
-    xfce-gui = ./xfce-gui;
+    xfce = ./xfce;
   };
 
   flake.nixosConfigurations = {
     vm = nixosSystemFor "x86_64-linux" ./vm;
-    xfce-gui = nixosSystemFor "x86_64-linux" ./xfce-gui;
+    xfce = nixosSystemFor "x86_64-linux" ./xfce;
   };
 
   perSystem = { system, ... }: {
     apps = {
       vm = vmApp "vm";
-      xfce-gui = vmApp "xfce-gui";
+      xfce = vmApp "xfce";
     };
   };
 }

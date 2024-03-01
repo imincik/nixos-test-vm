@@ -3,7 +3,7 @@
 ## VM list
 
 * vm - bare bones VM
-* xfce-gui - XFCE desktop
+* xfce - XFCE desktop
 
 
 ## Usage

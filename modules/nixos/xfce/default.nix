@@ -2,7 +2,7 @@
 
 {
   imports = [
-    ./../vm-common.nix
+    ./../common.nix
   ];
 
   virtualisation = {

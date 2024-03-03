@@ -19,12 +19,7 @@
     desktopManager.xfce.enable = true;
   };
 
-  users.users.test = {
-    isNormalUser = true;
-    initialPassword = "test";
-    extraGroups = [ "wheel" ];
-    packages = with pkgs; [
-      firefox
-    ];
-  };
+  environment.systemPackages = with pkgs; [
+    firefox
+  ];
 }

@@ -12,6 +12,13 @@
     password = "root";
   };
 
+  users.users.test = {
+    isNormalUser = true;
+    initialPassword = "test";
+    extraGroups = [ "wheel" ];
+    description = "Test User";
+  };
+
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
   environment.systemPackages = with pkgs; [

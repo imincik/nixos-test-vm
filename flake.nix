@@ -1,8 +1,8 @@
 {
-  description = "Simple test NixOS VMs";
+  description = "Simple NixOS VMs";
 
   inputs = {
-    nixpkgs.url = "nixpkgs/nixos-23.11";
+    nixpkgs.url = "nixpkgs/nixos-unstable";
     flake-parts = {
       url = "github:hercules-ci/flake-parts";
       inputs.nixpkgs-lib.follows = "nixpkgs";
